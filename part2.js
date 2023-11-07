@@ -6,7 +6,6 @@ let counter = 0;
 function setup() {
     new Canvas("fullscreen");
     world.gravity.y = 10;
-    params = getURLParams();
 }
 
 function draw() {
